@@ -97,6 +97,8 @@ CJSON_PUBLIC(const char*) cJSON_Version(void)
     return version;
 }
 
+
+
 /* Case insensitive string comparison, doesn't consider two NULL pointers equal though */
 static int case_insensitive_strcmp(const unsigned char *string1, const unsigned char *string2)
 {

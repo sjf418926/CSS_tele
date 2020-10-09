@@ -88,6 +88,8 @@ uint8_t ulaw_to_alaw(uint8_t ulaw)
 	return ulaw_to_alaw_table[ulaw];
 }
 
+
+
 /*- End of function --------------------------------------------------------*/
 /*- End of file ------------------------------------------------------------*/
 
